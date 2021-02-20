@@ -12,28 +12,10 @@ OddOrEven(0)
 OddOrEven(6)
 OddOrEven(1234567890)
 
-
-
-
-
 def lessNum(list, num):
     for number in list:
         if num > number:
             print(number)
-
-   
-    
-
-
-    
-  
-  
-  
-  
-  
-
-
-   
 
 
 # I will call this function to test if it works.
