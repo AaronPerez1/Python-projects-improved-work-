@@ -2,10 +2,11 @@ import random
 min = 1
 max = 6
 
-roll_again = "yes"
+roll_again = ""
 
 while roll_again == "yes":
-    print random.randint(min, max)
-    print random.randint(min, max)
+    print (random.randint(min, max))
+    print (random.randint(min, max))
 
-roll_again: str = input("Roll dices again?")
+roll_again = input("Roll dices again: ")
+

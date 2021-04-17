@@ -3,10 +3,10 @@ import random
 players_action = input("rock, paper or scissors: ")
 actions_possible = ["rock", "paper", "scissors"]
 computer_action = random.choice(actions_possible)
-print("You chose {players_action}, computer chose {computer_action}.")
+print("You chose " + players_action+ ",computer chose " + computer_action+".")
 
 if players_action == computer_action:
-    print("Both players selected {players_action}. It's a tie!")
+    print("Both players selected "  + players_action  + ". It's a tie!")
 elif players_action == "rock":
     if computer_action == "scissors":
         print("Rock smashes scissors! You win!")
